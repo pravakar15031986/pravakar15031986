@@ -1,0 +1,7 @@
+// transition
+@mixin transition($name, $duration, $timing-fn, $delay: 0s) {
+  transition: $name $duration $timing-fn $delay;
+}
+
+
+   

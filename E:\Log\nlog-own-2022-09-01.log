@@ -1,0 +1,265 @@
+2022-09-01 13:41:47.3116||DEBUG|SDB.Web.Program|init main function |url: |action: 
+2022-09-01 13:41:49.9547||INFO|SDB.Web.Program|Shutting down application... |url: |action: 
+2022-09-01 13:41:55.2135||DEBUG|SDB.Web.Program|init main function |url: |action: 
+2022-09-01 13:42:07.3459|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 13:42:07.3994|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 13:42:07.4024|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKBU6K7TQ1Q", Request id "0HMKBU6K7TQ1Q:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 13:42:11.3141|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 13:42:11.3254|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 13:42:11.3273|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKBU6K7TQ1Q", Request id "0HMKBU6K7TQ1Q:00000002": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 13:42:22.7936|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 13:42:22.8006|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 13:42:22.8026|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKBU6K7TQ1Q", Request id "0HMKBU6K7TQ1Q:00000003": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 13:46:10.7073|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 13:46:10.7147|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 13:46:10.7166|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKBU6K7TQ1R", Request id "0HMKBU6K7TQ1R:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:22:54.8375|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:22:54.8446|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 15:22:54.8470|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKBU6K7TQ1S", Request id "0HMKBU6K7TQ1S:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:41:29.3500|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:41:29.3574|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 15:41:29.3595|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKBU6K7TQ1T", Request id "0HMKBU6K7TQ1T:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:41:32.5121||INFO|SDB.Web.Program|Shutting down application... |url: |action: 
+2022-09-01 15:42:56.7472||DEBUG|SDB.Web.Program|init main function |url: |action: 
+2022-09-01 15:43:02.3571|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:02.4100|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 15:43:02.4130|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC0A6CVDE9", Request id "0HMKC0A6CVDE9:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:06.4593|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:06.4703|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 15:43:06.4722|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC0A6CVDE9", Request id "0HMKC0A6CVDE9:00000002": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:07.3583|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:07.3654|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 15:43:07.3673|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC0A6CVDE9", Request id "0HMKC0A6CVDE9:00000003": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:07.5731|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:07.5801|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 15:43:07.5819|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC0A6CVDE9", Request id "0HMKC0A6CVDE9:00000004": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:07.8182|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:07.8259|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 15:43:07.8278|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC0A6CVDE9", Request id "0HMKC0A6CVDE9:00000005": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:08.0181|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:08.0255|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 15:43:08.0274|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC0A6CVDE9", Request id "0HMKC0A6CVDE9:00000006": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:08.2164|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:08.2247|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 15:43:08.2266|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC0A6CVDE9", Request id "0HMKC0A6CVDE9:00000007": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:08.4164|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:08.4236|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 15:43:08.4254|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC0A6CVDE9", Request id "0HMKC0A6CVDE9:00000008": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:08.6001|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:08.6071|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 15:43:08.6090|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC0A6CVDE9", Request id "0HMKC0A6CVDE9:00000009": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:08.7898|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:08.7981|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 15:43:08.8000|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC0A6CVDE9", Request id "0HMKC0A6CVDE9:0000000A": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:09.0155|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:09.0228|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 15:43:09.0247|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC0A6CVDE9", Request id "0HMKC0A6CVDE9:0000000B": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:09.2079|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 15:43:09.2154|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 15:43:09.2173|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC0A6CVDE9", Request id "0HMKC0A6CVDE9:0000000C": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 16:57:49.2101||INFO|SDB.Web.Program|Shutting down application... |url: |action: 
+2022-09-01 16:57:51.4184||DEBUG|SDB.Web.Program|init main function |url: |action: 
+2022-09-01 16:58:01.0142|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 16:58:01.0710|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 16:58:01.0739|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC1K338NM6", Request id "0HMKC1K338NM6:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 16:58:07.5845|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 16:58:07.5952|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 16:58:07.5971|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC1K338NM6", Request id "0HMKC1K338NM6:00000002": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 16:58:14.8976|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 16:58:14.9045|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 16:58:14.9063|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC1K338NM6", Request id "0HMKC1K338NM6:00000003": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 16:58:36.2033||INFO|SDB.Web.Program|Shutting down application... |url: |action: 
+2022-09-01 16:58:49.3408||DEBUG|SDB.Web.Program|init main function |url: |action: 
+2022-09-01 16:59:49.5707|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 16:59:49.6341|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 16:59:49.6379|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC1L3EOVUP", Request id "0HMKC1L3EOVUP:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 17:00:22.6760|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 17:00:22.6864|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 17:00:22.6883|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC1L3EOVUP", Request id "0HMKC1L3EOVUP:00000002": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 17:40:45.6136||INFO|SDB.Web.Program|Shutting down application... |url: |action: 
+2022-09-01 17:43:02.7373||DEBUG|SDB.Web.Program|init main function |url: |action: 
+2022-09-01 17:43:02.8781||ERROR|SDB.Web.Program|Error in init System.FormatException: Could not parse the JSON file. Error on line number '10': '"ConnectionStrings": {
+##    "SDBConnectionString": "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=Ora3.corp.csmpl.com)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ORA3.corp.csmpl.com)));User Id=CDash_stg;Password=Stg#Cdash321;"'. ---> Newtonsoft.Json.JsonReaderException: Invalid property identifier character: #. Path 'ConnectionStrings', line 10, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseProperty()
+   at Newtonsoft.Json.JsonTextReader.ParseObject()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JContainer.ReadContentFrom(JsonReader r, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom(JsonReader reader, JsonLoadSettings options)
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.WebHostBuilder.BuildCommonServices(AggregateException& hostingStartupErrors)
+   at Microsoft.AspNetCore.Hosting.WebHostBuilder.Build()
+   at SDB.Web.Program.Main(String[] args) in D:\Projects\dashboard\SDB.Web\Program.cs:line 17|url: |action: 
+2022-09-01 17:43:09.1129||DEBUG|SDB.Web.Program|init main function |url: |action: 
+2022-09-01 17:43:09.2311||ERROR|SDB.Web.Program|Error in init System.FormatException: Could not parse the JSON file. Error on line number '10': '"ConnectionStrings": {
+##    "SDBConnectionString": "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=Ora3.corp.csmpl.com)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ORA3.corp.csmpl.com)));User Id=CDash_stg;Password=Stg#Cdash321;"'. ---> Newtonsoft.Json.JsonReaderException: Invalid property identifier character: #. Path 'ConnectionStrings', line 10, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseProperty()
+   at Newtonsoft.Json.JsonTextReader.ParseObject()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JContainer.ReadContentFrom(JsonReader r, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom(JsonReader reader, JsonLoadSettings options)
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.WebHostBuilder.BuildCommonServices(AggregateException& hostingStartupErrors)
+   at Microsoft.AspNetCore.Hosting.WebHostBuilder.Build()
+   at SDB.Web.Program.Main(String[] args) in D:\Projects\dashboard\SDB.Web\Program.cs:line 17|url: |action: 
+2022-09-01 17:43:47.0983||DEBUG|SDB.Web.Program|init main function |url: |action: 
+2022-09-01 17:43:55.2416|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData() in D:\Projects\dashboard\SDB.Repository\Dashboard\DashboardRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 17:43:55.2878|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData() in D:\Projects\dashboard\SDB.Repository\Dashboard\DashboardRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 17:43:55.2909|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC2DO7PFKU", Request id "0HMKC2DO7PFKU:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData() in D:\Projects\dashboard\SDB.Repository\Dashboard\DashboardRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 17:43:57.0830|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData() in D:\Projects\dashboard\SDB.Repository\Dashboard\DashboardRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 17:43:57.0892|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData() in D:\Projects\dashboard\SDB.Repository\Dashboard\DashboardRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 17:43:57.0912|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC2DO7PFKU", Request id "0HMKC2DO7PFKU:00000002": An unhandled exception was thrown by the application. System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData() in D:\Projects\dashboard\SDB.Repository\Dashboard\DashboardRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 17:46:13.1886||INFO|SDB.Web.Program|Shutting down application... |url: |action: 
+2022-09-01 17:47:38.3947||DEBUG|SDB.Web.Program|init main function |url: |action: 
+2022-09-01 17:50:52.5740||INFO|SDB.Web.Program|Shutting down application... |url: |action: 
+2022-09-01 17:51:19.5197||DEBUG|SDB.Web.Program|init main function |url: |action: 
+2022-09-01 17:51:29.3366|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 17:51:29.3994|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 17:51:29.4032|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC2HV7OVQR", Request id "0HMKC2HV7OVQR:00000001": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 17:51:34.4313|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 17:51:34.4473|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 17:51:34.4500|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC2HV7OVQR", Request id "0HMKC2HV7OVQR:00000002": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 17:51:40.3950||INFO|SDB.Web.Program|Shutting down application... |url: |action: 
+2022-09-01 17:51:51.8806||DEBUG|SDB.Web.Program|init main function |url: |action: 
+2022-09-01 17:51:58.9970|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 17:51:59.0572|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/Home/Error|action: Dashboard
+2022-09-01 17:51:59.0667|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMKC2I82Q59L", Request id "0HMKC2I82Q59L:00000001": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at SDB.Repository.Analytic.AnalyticDataRepository.GetKPIValues(Dashboard dashboard) in D:\Projects\dashboard\SDB.Repository\Analytic\AnalyticDataRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Dashboard
+2022-09-01 17:52:30.2492||INFO|SDB.Web.Program|Shutting down application... |url: |action: 
+2022-09-01 17:54:47.5513||DEBUG|SDB.Web.Program|init main function |url: |action: 
+2022-09-01 17:55:22.4606||INFO|SDB.Web.Program|Shutting down application... |url: |action: 
+2022-09-01 17:55:28.1016||DEBUG|SDB.Web.Program|init main function |url: |action: 

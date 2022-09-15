@@ -1,0 +1,88 @@
+2021-04-01 18:24:34.2650||ERROR|SDB.Repository.Login.LoginRepository|ORA-01017: invalid username/password; logon denied Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-01017: invalid username/password; logon denied
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-01 18:24:34.2788||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (ORA-01017: invalid username/password; logon denied) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-01017: invalid username/password; logon denied
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42
+2021-04-01 18:24:46.1030||ERROR|SDB.Repository.Login.LoginRepository|ORA-01017: invalid username/password; logon denied Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-01017: invalid username/password; logon denied
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-01 18:24:46.1058||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (ORA-01017: invalid username/password; logon denied) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-01017: invalid username/password; logon denied
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42
+2021-04-01 18:24:49.1534||ERROR|SDB.Repository.Login.LoginRepository|ORA-01017: invalid username/password; logon denied Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-01017: invalid username/password; logon denied
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-01 18:24:49.1561||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (ORA-01017: invalid username/password; logon denied) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-01017: invalid username/password; logon denied
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42
+2021-04-01 18:25:30.9490||ERROR|SDB.Repository.Login.LoginRepository|ORA-01017: invalid username/password; logon denied Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-01017: invalid username/password; logon denied
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-01 18:25:30.9517||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (ORA-01017: invalid username/password; logon denied) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-01017: invalid username/password; logon denied
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42
+2021-04-01 18:41:05.1520||ERROR|SDB.Repository.Login.LoginRepository|ORA-01017: invalid username/password; logon denied Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-01017: invalid username/password; logon denied
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-01 18:41:05.1547||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (ORA-01017: invalid username/password; logon denied) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-01017: invalid username/password; logon denied
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42
+2021-04-01 18:41:38.9510||ERROR|SDB.Repository.Login.LoginRepository|ORA-01017: invalid username/password; logon denied Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-01017: invalid username/password; logon denied
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-01 18:41:38.9537||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (ORA-01017: invalid username/password; logon denied) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-01017: invalid username/password; logon denied
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42
+2021-04-01 18:41:49.5601||ERROR|SDB.Repository.Login.LoginRepository|ORA-01017: invalid username/password; logon denied Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-01017: invalid username/password; logon denied
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-01 18:41:49.5632||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (ORA-01017: invalid username/password; logon denied) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-01017: invalid username/password; logon denied
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42
+2021-04-01 18:56:26.3496||ERROR|SDB.Repository.Login.LoginRepository|ORA-01017: invalid username/password; logon denied Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-01017: invalid username/password; logon denied
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-01 18:56:26.3527||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (ORA-01017: invalid username/password; logon denied) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-01017: invalid username/password; logon denied
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42

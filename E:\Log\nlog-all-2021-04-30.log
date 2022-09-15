@@ -1,0 +1,188 @@
+2021-04-30 12:44:35.6454||DEBUG|SDB.Web.Program|init main function 
+2021-04-30 13:56:01.7036||ERROR|SDB.Repository.Login.LoginRepository|Connection request timed out Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-30 13:56:01.7177||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (Connection request timed out) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42
+2021-04-30 13:56:11.8550||ERROR|SDB.Repository.Login.LoginRepository|ORA-12154: TNS:could not resolve the connect identifier specified Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-30 13:56:11.8584||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (ORA-12154: TNS:could not resolve the connect identifier specified) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42
+2021-04-30 13:57:03.6094||ERROR|SDB.Repository.Login.LoginRepository|Connection request timed out Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-30 13:57:03.6121||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (Connection request timed out) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42
+2021-04-30 13:57:25.4331||ERROR|SDB.Repository.Login.LoginRepository|ORA-12154: TNS:could not resolve the connect identifier specified Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-30 13:57:25.4361||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (ORA-12154: TNS:could not resolve the connect identifier specified) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42
+2021-04-30 13:57:37.1347||ERROR|SDB.Repository.Login.LoginRepository|ORA-12154: TNS:could not resolve the connect identifier specified Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-30 13:57:37.1377||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (ORA-12154: TNS:could not resolve the connect identifier specified) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42
+2021-04-30 14:06:19.8855||ERROR|SDB.Repository.Login.LoginRepository|Connection request timed out Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-30 14:06:19.8886||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (Connection request timed out) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42
+2021-04-30 14:06:30.0587||ERROR|SDB.Repository.Login.LoginRepository|ORA-12154: TNS:could not resolve the connect identifier specified Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-30 14:06:30.0619||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (ORA-12154: TNS:could not resolve the connect identifier specified) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42
+2021-04-30 14:06:38.9971||ERROR|SDB.Repository.Login.LoginRepository|ORA-12154: TNS:could not resolve the connect identifier specified Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-30 14:06:39.0006||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (ORA-12154: TNS:could not resolve the connect identifier specified) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42
+2021-04-30 14:06:44.9406||ERROR|SDB.Repository.Login.LoginRepository|ORA-12154: TNS:could not resolve the connect identifier specified Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-30 14:06:44.9440||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (ORA-12154: TNS:could not resolve the connect identifier specified) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42
+2021-04-30 14:32:44.1099||ERROR|SDB.Repository.Login.LoginRepository|ORA-12154: TNS:could not resolve the connect identifier specified Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-30 14:32:44.1134||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (ORA-12154: TNS:could not resolve the connect identifier specified) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42
+2021-04-30 14:33:03.6719||ERROR|SDB.Repository.Login.LoginRepository|ORA-12154: TNS:could not resolve the connect identifier specified Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36
+2021-04-30 14:33:03.6754||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (ORA-12154: TNS:could not resolve the connect identifier specified) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12154: TNS:could not resolve the connect identifier specified ---> OracleInternal.Network.NetworkException (0x00002F7A): ORA-12154: TNS:could not resolve the connect identifier specified
+   at OracleInternal.Network.AddressResolution..ctor(String TNSAlias, SqlNetOraConfig SNOConfig, Hashtable ObTnsHT, String instanceName, ConnectionOption CO)
+   at OracleInternal.Network.OracleCommunication.Resolve(String tnsAlias, ConnectionOption& CO)
+   at OracleInternal.ConnectionPool.PoolManager`3.ResolveTnsAlias(ConnectionString cs, Object OC)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Projects\SDB Main Page\State Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42
+2021-04-30 15:44:26.1576||INFO|SDB.Web.Program|Shutting down application... 
+2021-04-30 15:44:37.9524||DEBUG|SDB.Web.Program|init main function 

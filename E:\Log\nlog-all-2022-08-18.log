@@ -1,0 +1,60 @@
+2022-08-18 12:19:52.1785|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-18 12:19:52.1833|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-18 12:19:52.1851|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJSD7QCA6AE", Request id "0HMJSD7QCA6AE:00000007": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-18 12:20:02.4043|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-18 12:20:02.4101|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-18 12:20:02.4123|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJSD7QCA6AE", Request id "0HMJSD7QCA6AE:00000008": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-18 12:33:28.4872|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-18 12:33:28.4923|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-18 12:33:28.4958|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJSD7QCA6AG", Request id "0HMJSD7QCA6AG:00000001": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-18 16:01:21.2618|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-18 16:01:21.2672|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-18 16:01:21.2691|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJSD7QCA6AI", Request id "0HMJSD7QCA6AI:00000004": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57

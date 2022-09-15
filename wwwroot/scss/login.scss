@@ -1,0 +1,286 @@
+/* base files*/
+@import "base/variables";
+@import "base/mixing";
+@import "base/common";
+
+body {
+    overflow-x: hidden;
+}
+.main {
+    &_section {
+        &_content {
+            background: $brand-primary;
+            padding: 30px;
+            .nav {
+                &bar-brand {
+                    color: rgba($white, .9);
+                    font-size: 1.2rem;
+                    line-height: 0.9;
+                    margin-bottom: 16px;
+                    .text_bottom {
+                        color: rgba($white, .8);
+                        font-size: 73%;
+                    }
+                    img {
+                        height: 60px;
+                        filter: brightness(100);
+                    }
+                }
+            }
+            // .cm_msg {
+            //     margin-bottom: 20px;
+            //     p {
+            //         font-size: 80%;
+            //         margin-bottom: 0;
+            //     }
+            //     img {
+            //         height: 60px;
+            //     }
+            // }
+            &_title {
+                color: rgba($white, .9);
+            }
+            p {
+                color: rgba($white, .5);
+            }
+            .card {
+                border: 0;
+                transition: .2s;
+                &-img-top {
+                    padding: 3px;
+                }
+                &:hover {
+                    box-shadow: rgba($white, .5) 0px 2px 10px 1px;
+                }
+            }
+            .swiper {
+                &-container {
+                    padding-bottom: 50px;
+                    [role="button"] {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        bottom: 0;
+                        top: inherit;
+                        left: inherit;
+                        &::after {
+                            font-size: 1rem;
+                            color: rgba($white, .8);
+                        }
+                        &:hover {
+                            &::after {
+                                color: $white;
+                            }
+                        }
+                        &.swiper-button {
+                            &-next {
+                                right: -4px;
+                            }
+                            &-prev {
+                                right: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &_login {
+            padding: 30px;
+            color: $brand-primary; 
+            // .nav {
+            //     &bar-brand {
+            //         color: $black;
+            //         font-size: 1.2rem;
+            //         line-height: 0.9;
+            //         margin-bottom: 16px;
+            //         .text_bottom {
+            //             color: lighten($grey,10%);
+            //             font-size: 73%;
+            //         }
+            //         img {
+            //             height: 60px;
+            //             filter: grayscale(100%);
+            //         }
+            //     }
+            // }
+            &_heading {
+                margin-bottom: 24px;  
+                p {
+                    color: rgba($black,.6);
+                    margin-bottom: 0;
+                }
+                h4 {
+                    color: $dark;
+                    border-bottom: 2px solid $brand-primary;
+                    display: inline-block; 
+                }
+            }
+            .forgott_link {
+                color: darken($text-color, 10%);
+                margin-bottom: 8px;
+                display: inline-block;
+                text-align: right;
+                margin-bottom: 24px;
+                transition: all .2s linear;
+                &:hover {
+                    color: $black; 
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        overflow: hidden;
+    }
+    .main {
+        // &_container {
+        //     overflow-x: hidden;
+        // }
+        &_section {
+            // position: relative;
+            // &::before {
+            //     content: "";
+            //     position: absolute;
+            //     top: 108px;
+            //     left: 0;
+            //     width: 100%;
+            //     height: 1px;
+            //     background: #b3aaaa66;
+            //     z-index: 2;
+            // }
+            &_content {
+                height: 100vh;
+                padding: 30px;
+                // .cm_msg {
+                //     min-height: 80px;
+                //     margin-bottom: 30px;
+                // }
+                .nav {
+                    &bar-brand {
+                        min-height: 80px;
+                    }
+                }
+            }
+            &_login {
+                padding: 128px 30px 30px 0;
+                // .nav {
+                //     &bar-brand {
+                //         min-height: 80px;
+                //         margin-bottom: 30px;
+                //     }
+                // }
+                &_heading {
+                    margin-bottom: 30px;
+                }
+                .forgott_link {
+                    margin-bottom: 40px;  
+                }
+            }
+        }
+    }
+}
+// @media (min-width: 768px) and  (max-width: 991px) {
+//     .main {
+//         &_section_content {
+//             .card {
+//                 &-deck {
+//                     .card {
+//                         &:last-child {
+//                             display: none;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+@media (min-width: 1200px) {
+    .main {
+        &_section {
+            line-height: 1.5;
+            &_content {
+                padding: 10px 50px 30px 80px;
+                &_title {
+                    margin-bottom: 4px;
+                }
+            }
+            &_login {
+                padding: 106px 80px 30px 20px;
+            }
+        }
+    }
+}
+@media (min-width: 1440px) {
+    .main {
+        &_section {
+            &_content {
+                .nav {
+                    &bar-brand {
+                        margin-bottom: 30px;
+                    }
+                }
+                .swiper-container {
+                    margin-top: 30px;
+                }
+            }
+            &_login {
+                padding: 124px 80px 30px 20px;
+            }
+        }
+    }
+}
+@media (min-width: 1680px) {
+    
+    .main {
+        &_section {
+            // &::before {
+            //     top: 180px;
+            // }
+            &_content {
+                padding: 80px 50px 30px 80px;
+                .nav {
+                    &bar-brand {
+                        font-size: 1.3rem;
+                        margin-bottom: 40px;
+                    }
+                    &-link {
+                        font-size: 1.1rem;
+                    }
+                }
+                .slide_card {
+                    margin-top: 35px;
+                }
+                .card {
+                    &-title {
+                        font-size: 1.125rem;
+                    }
+                    &-img-top {
+                        height: 200px;
+                    }
+                }
+            }
+            &_login {
+                padding: 200px 200px 50px 40px;
+                // .nav {
+                //     &bar-brand {
+                //         font-size: 1.3rem;
+                //     }
+                //     &-link {
+                //         font-size: 1.1rem;
+                //     }
+                // }
+                &_heading {
+                    margin-bottom: 40px;
+                }
+                .forgott_link {
+                    margin-bottom: 50px;  
+                }
+            }
+        }
+    }
+}
+
+  /*# sourceMappingURL=home.css.map */
+  

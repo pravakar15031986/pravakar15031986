@@ -1,0 +1,32 @@
+2022-08-10 17:42:30.2085||ERROR|SDB.Repository.Login.LoginRepository|Oracle error ORA-12571 encountered Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Oracle error ORA-12571 encountered ---> OracleInternal.Network.NetworkException (0x80004005): Oracle error ORA-12571 encountered ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   at OracleInternal.Network.TcpTransportAdapter.Send(OraBuf OB)
+   at OracleInternal.Network.TcpTransportAdapter.Send(OraBuf OB)
+   at OracleInternal.Network.WriterStream.Write(OraBuf OB)
+   at OracleInternal.TTC.OraBufWriter.FlushData()
+   at OracleInternal.TTC.TTCExecuteSql.WriteOall8Message(Byte[] sqlStmtByteStream, Int32 cursorId, Int64 dbChangeRegistrationId, Int64 executeOptions, ColumnDescribeInfo[] colDefinesInfoArray, Int32 longFetchSize, Int32 arrayBindCount, Int32 numDefineCols, Int64 noOfRowsToFetch, SqlStatementType stmtType, MarshalBindParameterValueHelper& marshalBindParamsHelper, Int32 startIndex)
+   at Oracle.ManagedDataAccess.Client.OracleException.HandleError(OracleTraceLevel level, OracleTraceTag tag, OracleTraceClassName className, OracleTraceFuncName funcName, Exception ex, OracleLogicalTransaction oracleLogicalTransaction)
+   at OracleInternal.TTC.TTCExecuteSql.WriteOall8Message(Byte[] sqlStmtByteStream, Int32 cursorId, Int64 dbChangeRegistrationId, Int64 executeOptions, ColumnDescribeInfo[] colDefinesInfoArray, Int32 longFetchSize, Int32 arrayBindCount, Int32 numDefineCols, Int64 noOfRowsToFetch, SqlStatementType stmtType, MarshalBindParameterValueHelper& marshalBindParamsHelper, Int32 startIndex)
+   at OracleInternal.TTC.TTCExecuteSql.SendExecuteRequest(OracleConnectionImpl commImpl, Byte[] sqlStmtByteStream, Boolean bHasReturningClause, Int32 cursorId, Int64 dbChangeRegistrationId, ColumnDescribeInfo[] columnDefines, Int64 noOfRowsToFetch, Boolean parse, Boolean execute, Boolean fetch, Boolean define, Boolean bAutoCommit, Boolean bDisableCompressedFetch, SqlStatementType stmtType, Int32 longFetchSize, Int32 arrayBindCount, Int64[] scnForSnapshot, MarshalBindParameterValueHelper& marshalBindParamsHelper, Int32 startIndex)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 419
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Project\StateDashboard\Dashboard\SDB.Repository\Login\LoginRepository.cs:line 36|url: https://dashboard.csmpl.com/|action: Login
+2022-08-10 17:42:30.4342||ERROR|SDB.Repository.SendMessage.MessageRepository|One or more errors occurred. (Oracle error ORA-12571 encountered) Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Oracle error ORA-12571 encountered ---> OracleInternal.Network.NetworkException (0x80004005): Oracle error ORA-12571 encountered ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   at OracleInternal.Network.TcpTransportAdapter.Send(OraBuf OB)
+   at OracleInternal.Network.TcpTransportAdapter.Send(OraBuf OB)
+   at OracleInternal.Network.WriterStream.Write(OraBuf OB)
+   at OracleInternal.TTC.OraBufWriter.FlushData()
+   at OracleInternal.TTC.TTCExecuteSql.WriteOall8Message(Byte[] sqlStmtByteStream, Int32 cursorId, Int64 dbChangeRegistrationId, Int64 executeOptions, ColumnDescribeInfo[] colDefinesInfoArray, Int32 longFetchSize, Int32 arrayBindCount, Int32 numDefineCols, Int64 noOfRowsToFetch, SqlStatementType stmtType, MarshalBindParameterValueHelper& marshalBindParamsHelper, Int32 startIndex)
+   at SDB.Repository.Login.LoginRepository.GetLoginDetails(login logins) in E:\Project\StateDashboard\Dashboard\SDB.Repository\Login\LoginRepository.cs:line 42|url: https://dashboard.csmpl.com/|action: Login
+2022-08-10 19:23:54.8496||DEBUG|SDB.Web.Program|init main function |url: |action: 
+2022-08-10 19:24:35.1729||INFO|SDB.Web.Program|Shutting down application... |url: |action: 
+2022-08-10 19:24:37.3010||DEBUG|SDB.Web.Program|init main function |url: |action: 
+2022-08-10 19:31:01.4629||INFO|SDB.Web.Program|Shutting down application... |url: |action: 
+2022-08-10 19:31:03.8401||DEBUG|SDB.Web.Program|init main function |url: |action: 
+2022-08-10 19:42:33.2636||INFO|SDB.Web.Program|Shutting down application... |url: |action: 
+2022-08-10 19:42:37.5706||DEBUG|SDB.Web.Program|init main function |url: |action: 
+2022-08-10 19:50:41.2459||INFO|SDB.Web.Program|Shutting down application... |url: |action: 
+2022-08-10 19:50:43.5993||DEBUG|SDB.Web.Program|init main function |url: |action: 

@@ -1,0 +1,264 @@
+.progress {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+    top: 0rem;
+    left: 0;
+    display: flex;
+    height: 5px;
+    width: 100%;
+
+    .progress-value {
+        animation: load 3s normal forwards;
+        box-shadow: 0 10px 40px -10px #fff;
+        background: $green;
+        height: 4px;
+        width: 0;
+    }
+}
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.home-page {
+    .header-sec {
+        padding: 0.65rem 0.75rem 0.45rem 0.75rem;
+        // border-top: solid 4px $green;
+    }
+}
+.admin-login {
+    padding: 0;
+}
+.header-sec {
+
+    background-color: var(--header-background);
+
+    .navbar-brand {
+        color: var(--header-link);
+
+        small {
+            font-size: 78%;
+            font-weight: normal;
+        }
+
+        &:hover {
+            color: var(--header-link);
+        }
+    }
+
+    .navbar-collapse {
+        &.show {
+            border-top: solid 1px var(--portlet-background);
+        }
+    }
+
+    .navbar-toggler {
+        // padding: 0.25rem 0.35rem;
+        padding: 0.55rem 0.65rem;
+        font-size: 1rem;
+        color: var(--header-link);
+        border-color: var(--header-link);
+
+        &:focus {
+            box-shadow: 0 0 0 0.05rem;
+        }
+    }
+
+    // .theme-dropdown {
+    //     .dropdown-toggle {
+    //         color: var(--header-link);
+    //         background-color: rgba($color-black, 0.1);
+
+    //         &::after {
+    //             display: none;
+    //         }
+    //     }
+
+    //     .dropdown-menu {
+    //         min-width: auto;
+    //         background-color: var(--portlet-hover-background);
+    //     }
+    // }
+
+    // .theme {
+    //     bottom: 1rem;
+    //     a {
+    //         display: block;
+    //         width: 1.2rem;
+    //         height: 1.2rem;
+    //         margin-left: 0.5rem;
+    //         text-decoration: none;
+    //         background-color: var(--color-progress-background);
+    //         border: solid 1px $gray-300;
+
+    //         &.theme-light-btn {
+    //             background-color: $blue;
+    //         }
+
+    //         &.theme-dark-btn {
+    //             background-color: $blue;
+    //         }
+
+    //         &.theme-blue-btn {
+    //             background-color: $blue-dark;
+    //         }
+
+    //         &.theme-green-btn {
+    //             background-color: $green-dark;
+    //         }
+
+    //         &.theme-green2-btn {
+    //             background-color: $green;
+    //         }
+
+    //         &.theme-green3-btn {
+    //             background-color: $green-light;
+    //         }
+    //     }
+
+    //     &.v-border {
+    //         &::after {
+    //             background-color: rgba($white, 0.35);
+    //             height: 2rem;
+    //             top: -0.3rem;
+    //         }
+    //     }
+    // }
+
+    .odisha-govt-logo {
+        width: 50px;
+
+        &.light {
+            display: var(--show-toggle-block);
+        }
+
+        &.dark {
+            display: var(--hide-toggle-block);
+        }
+    }
+
+    // .dept-logo {
+    //     height: 60px;
+    // }
+    .navbar-nav {
+        .toggle-menu {
+            a {
+                &:hover {
+                    color: $red;
+                }
+            }
+        }
+        .nav-link {
+            color: $green-dark;
+            padding-left: 1.2rem;
+            padding-right: 1.2rem;
+            background-color: $color-lightgreen;
+
+            &:focus {
+                color: var(--header-link);
+            }
+
+            &:hover {
+                color: var(--header-link-hover);
+            }
+        }
+    }
+
+    &.fix-header {
+        box-shadow: 0 0.5rem 1rem rgba($color-black, 0.15);
+    }
+}
+.theme {
+    bottom: 1rem;
+    a {
+        display: block;
+        width: 3.2rem;
+        height: 1.2rem;
+        margin-left: 0.5rem;
+        text-decoration: none;
+        background-color: var(--color-progress-background);
+        border: solid 1px $gray-300;
+
+        &.theme-green-btn {
+            background-color: $gray-100;
+        }
+        &.theme-blue-btn {
+            background-color: $green;
+        }
+    }
+
+    &.v-border {
+        &::after {
+            background-color: rgba($white, 0.35);
+            height: 2rem;
+            top: -0.3rem;
+        }
+    }
+}
+@media screen and (max-width: 991px) {
+    .header-sec {
+        .theme-dropdown {
+            position: absolute;
+            right: 0.75rem;
+            top: .5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header-sec {
+        .navbar-brand {
+            img {
+                width: 35px;
+            }
+
+            .h5 {
+                font-size: 0.95rem;
+            }
+        }
+
+    }
+}
+@media screen and (min-width: 768px) {
+    .admin-login {
+        background-color: $color-lightgreen;
+        padding: .3rem 1rem;
+    }
+}
+// inner 
+.inner-header {
+    h4 {
+        color: $green;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+
+        small {
+            font-size: 90%;
+        }
+    }
+
+    .title-header {
+        color: $white;
+        font-size: 1.2rem;
+        padding: .3rem 1rem;
+
+        a {
+            line-height: 1rem;
+color: $white;
+&:hover {
+   opacity: .8;
+}
+
+        }
+    }
+}

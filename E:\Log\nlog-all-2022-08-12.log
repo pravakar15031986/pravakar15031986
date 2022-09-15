@@ -1,0 +1,590 @@
+2022-08-12 11:33:27.6835||INFO|SDB.Web.Program|Shutting down application... 
+2022-08-12 11:33:58.4603||DEBUG|SDB.Web.Program|init main function 
+2022-08-12 11:49:55.1793|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at SDB.Web.Controllers.DashboardController.GetTablueToken(String username) in E:\Projects\State Dashboard Main\SDB.Web\Controllers\DashboardController.cs:line 219
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2022-08-12 11:49:55.2077|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at SDB.Web.Controllers.DashboardController.GetTablueToken(String username) in E:\Projects\State Dashboard Main\SDB.Web\Controllers\DashboardController.cs:line 219
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2022-08-12 11:49:55.2121|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJS56PUSKKO", Request id "0HMJS56PUSKKO:0000001B": An unhandled exception was thrown by the application. System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at SDB.Web.Controllers.DashboardController.GetTablueToken(String username) in E:\Projects\State Dashboard Main\SDB.Web\Controllers\DashboardController.cs:line 219
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at SDB.Web.Startup.<>c.<<Configure>b__7_0>d.MoveNext() in E:\Projects\State Dashboard Main\SDB.Web\Startup.cs:line 233
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-08-12 12:12:17.2743|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at SDB.Web.Controllers.DashboardController.GetTablueToken(String username) in E:\Projects\State Dashboard Main\SDB.Web\Controllers\DashboardController.cs:line 219
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2022-08-12 12:12:17.2795|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at SDB.Web.Controllers.DashboardController.GetTablueToken(String username) in E:\Projects\State Dashboard Main\SDB.Web\Controllers\DashboardController.cs:line 219
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2022-08-12 12:12:17.2828|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJS56PUSKKS", Request id "0HMJS56PUSKKS:00000001": An unhandled exception was thrown by the application. System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at SDB.Web.Controllers.DashboardController.GetTablueToken(String username) in E:\Projects\State Dashboard Main\SDB.Web\Controllers\DashboardController.cs:line 219
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at SDB.Web.Startup.<>c.<<Configure>b__7_0>d.MoveNext() in E:\Projects\State Dashboard Main\SDB.Web\Startup.cs:line 233
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-08-12 12:12:18.9776|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at SDB.Web.Controllers.DashboardController.GetTablueToken(String username) in E:\Projects\State Dashboard Main\SDB.Web\Controllers\DashboardController.cs:line 219
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2022-08-12 12:12:18.9809|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at SDB.Web.Controllers.DashboardController.GetTablueToken(String username) in E:\Projects\State Dashboard Main\SDB.Web\Controllers\DashboardController.cs:line 219
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2022-08-12 12:12:18.9840|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJS56PUSKKS", Request id "0HMJS56PUSKKS:00000002": An unhandled exception was thrown by the application. System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at SDB.Web.Controllers.DashboardController.GetTablueToken(String username) in E:\Projects\State Dashboard Main\SDB.Web\Controllers\DashboardController.cs:line 219
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at SDB.Web.Startup.<>c.<<Configure>b__7_0>d.MoveNext() in E:\Projects\State Dashboard Main\SDB.Web\Startup.cs:line 233
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-08-12 12:12:50.7171|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at SDB.Web.Controllers.DashboardController.GetTablueToken(String username) in E:\Projects\State Dashboard Main\SDB.Web\Controllers\DashboardController.cs:line 219
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2022-08-12 12:12:50.7204|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at SDB.Web.Controllers.DashboardController.GetTablueToken(String username) in E:\Projects\State Dashboard Main\SDB.Web\Controllers\DashboardController.cs:line 219
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2022-08-12 12:12:50.7233|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJS56PUSKKS", Request id "0HMJS56PUSKKS:00000003": An unhandled exception was thrown by the application. System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at SDB.Web.Controllers.DashboardController.GetTablueToken(String username) in E:\Projects\State Dashboard Main\SDB.Web\Controllers\DashboardController.cs:line 219
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at SDB.Web.Startup.<>c.<<Configure>b__7_0>d.MoveNext() in E:\Projects\State Dashboard Main\SDB.Web\Startup.cs:line 233
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-08-12 19:01:16.3049|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at SDB.Web.Controllers.DashboardController.GetTablueToken(String username) in E:\Projects\State Dashboard Main\SDB.Web\Controllers\DashboardController.cs:line 219
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2022-08-12 19:01:16.3082|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at SDB.Web.Controllers.DashboardController.GetTablueToken(String username) in E:\Projects\State Dashboard Main\SDB.Web\Controllers\DashboardController.cs:line 219
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2022-08-12 19:01:16.3112|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJS56PUSKLE", Request id "0HMJS56PUSKLE:00000001": An unhandled exception was thrown by the application. System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at SDB.Web.Controllers.DashboardController.GetTablueToken(String username) in E:\Projects\State Dashboard Main\SDB.Web\Controllers\DashboardController.cs:line 219
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at SDB.Web.Startup.<>c.<<Configure>b__7_0>d.MoveNext() in E:\Projects\State Dashboard Main\SDB.Web\Startup.cs:line 233
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-08-12 19:06:44.3898||INFO|SDB.Web.Program|Shutting down application... 
+2022-08-12 19:07:17.4068||DEBUG|SDB.Web.Program|init main function 
+2022-08-12 19:10:49.6458|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:10:49.6771|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:10:49.6803|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJSCV6N8Q1U", Request id "0HMJSCV6N8Q1U:0000001F": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:12:37.3453|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at SDB.Web.Controllers.DashboardController.GetTablueToken(String username) in E:\Projects\State Dashboard Main\SDB.Web\Controllers\DashboardController.cs:line 251
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2022-08-12 19:12:37.3505|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at SDB.Web.Controllers.DashboardController.GetTablueToken(String username) in E:\Projects\State Dashboard Main\SDB.Web\Controllers\DashboardController.cs:line 251
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2022-08-12 19:12:37.3538|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJSCV6N8Q1U", Request id "0HMJSCV6N8Q1U:00000020": An unhandled exception was thrown by the application. System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at SDB.Web.Controllers.DashboardController.GetTablueToken(String username) in E:\Projects\State Dashboard Main\SDB.Web\Controllers\DashboardController.cs:line 251
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at SDB.Web.Startup.<>c.<<Configure>b__7_0>d.MoveNext() in E:\Projects\State Dashboard Main\SDB.Web\Startup.cs:line 233
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-08-12 19:17:34.5610||INFO|SDB.Web.Program|Shutting down application... 
+2022-08-12 19:17:38.2019||DEBUG|SDB.Web.Program|init main function 
+2022-08-12 19:18:43.0950|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:18:43.1267|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:18:43.1298|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJSD5718ETL", Request id "0HMJSD5718ETL:0000000C": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:18:49.7417|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:18:49.7547|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:18:49.7568|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJSD5718ETL", Request id "0HMJSD5718ETL:0000000D": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:18:52.9550|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:18:52.9620|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:18:52.9642|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJSD5718ETL", Request id "0HMJSD5718ETL:0000000E": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:19:28.8866|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:19:28.8915|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:19:28.8937|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJSD5718ETL", Request id "0HMJSD5718ETL:0000000F": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:19:37.0672|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:19:37.0726|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:19:37.0748|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJSD5718ETL", Request id "0HMJSD5718ETL:00000010": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:19:40.1904|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:19:40.1952|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:19:40.1973|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJSD5718ETL", Request id "0HMJSD5718ETL:00000011": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:19:44.2948|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:19:44.3014|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:19:44.3036|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJSD5718ETL", Request id "0HMJSD5718ETL:00000012": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:19:49.2145|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:19:49.2195|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:19:49.2216|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJSD5718ETL", Request id "0HMJSD5718ETL:00000013": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:21:48.7784||INFO|SDB.Web.Program|Shutting down application... 
+2022-08-12 19:21:50.7166||DEBUG|SDB.Web.Program|init main function 
+2022-08-12 19:23:04.3240|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:23:04.3617|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:23:04.3649|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJSD7QCA69N", Request id "0HMJSD7QCA69N:0000000A": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:29:25.0228|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:29:25.0299|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:29:25.0321|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJSD7QCA69O", Request id "0HMJSD7QCA69O:00000001": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:33:16.2004|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:33:16.2063|3|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57
+2022-08-12 19:33:16.2084|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJSD7QCA69P", Request id "0HMJSD7QCA69P:00000001": An unhandled exception was thrown by the application. Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'USP_5T_GETDASHBOARDCONFIGDATA'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at SDB.Repository.Dashboard.DashboardRepository.GetDBConfigData(Int32 id) in E:\Projects\State Dashboard Main\SDB.Repository\Dashboard\DashboardRepository.cs:line 57

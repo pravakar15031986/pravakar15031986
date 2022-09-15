@@ -1,0 +1,101 @@
+
+header {
+    box-shadow: rgba(0,0,0,0.28) 0px 0px 3px;
+    background: $brand-primary;
+    .nav {
+        &bar-brand {
+            color: rgba($white,.9);
+            line-height: .9;
+            font-size: 1.2rem;
+            .text_bottom {
+                color: rgba($white,.5);
+                font-size: 73%;
+            }
+            img {
+                height: 60px;
+                filter: brightness(100);
+            }
+        }
+        &-link {
+            color: rgba($white,.8);
+            position: relative;
+            padding: 0 !important;
+            font-size: 1rem;
+            transition: all .2s linear;
+            &:before {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                background: $white;
+                height: 2px;
+                width: 100%;
+                transform: scale(0);
+                transition: transform .2s linear;
+            }
+    
+            &:hover:not(.profile,.logout) {
+                &:before {
+                    transform: scale(1);
+                }
+            }
+            &.logout {
+                color: $logout-color;
+                &:hover {
+                   color: lighten($logout-color,10%);
+                }
+            }
+            &.profile {
+                margin-right: 16px;
+                border-right: 1px solid rgba($white,.14);
+                img {
+                    width: 30px;
+                    height: 30px;
+                    object-fit: cover;
+                    object-position: center;
+                    border-radius: 50%;
+                }
+                span {
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+    // .cm_msg {
+    //     margin-bottom: 20px;
+    //     p {
+    //         font-size: 80%;
+    //         margin-bottom: 0;
+    //         color: rgba($white,.7);
+    //     }
+    //     img {
+    //         height: 60px;
+    //     }
+    // }
+}
+
+// @media (min-width: 1920px) {
+//     header {
+//         .nav-link {
+//             font-size: 1.1rem;
+//         }
+//     }
+// }
+@media (min-width: 768px) {
+    header {
+        .nav-link {
+            margin-bottom: 0 !important;
+        }
+    }
+}
+@media (min-width: 1600px) {
+    header {
+        .nav {
+            &bar-brand {
+                font-size: 1.3rem;
+            }
+            &-link {
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

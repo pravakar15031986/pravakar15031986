@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'cmdicon';
+  src:  url('../fonts/cmdicon.eot?pxeau1');
+  src:  url('../fonts/cmdicon.eot?pxeau1#iefix') format('embedded-opentype'),
+    url('../fonts/cmdicon.ttf?pxeau1') format('truetype'),
+    url('../fonts/cmdicon.woff?pxeau1') format('woff'),
+    url('../fonts/cmdicon.svg?pxeau1#cmdicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="cmdicon-"], [class*=" cmdicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'cmdicon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cmdicon-menu:before {
+  content: "\e900";
+}
+.cmdicon-grid-3x3-gap:before {
+  content: "\e901";
+}
+.cmdicon-grid:before {
+  content: "\e902";
+}
+.cmdicon-gear:before {
+  content: "\e903";
+}
+.cmdicon-x-lg:before {
+  content: "\e904";
+}
+.cmdicon-list:before {
+  content: "\e905";
+}
+.cmdicon-house-door:before {
+  content: "\e906";
+}
+.cmdicon-box-arrow-up-right:before {
+  content: "\e907";
+}

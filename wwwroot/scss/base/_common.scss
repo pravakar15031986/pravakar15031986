@@ -1,0 +1,129 @@
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Regular.ttf); }
+  body {
+    font-family: roboto;
+    font-size: .9rem;
+    /*transition: all 0.5s ease-in-out 0s;*/
+    color: $body-text-color;
+    line-height: 1.4;
+  }
+  
+  /*.login_sec .form-control:focus + label, .login_sec .form-control:valid + label {
+    top: -12px;
+    color: $brand-primary;
+    font-weight: 500;
+    z-index: 1; }*/
+
+.main {
+    /* login */
+    &_section {
+        label {
+            color: $dark;
+        } 
+        // form
+        .form {
+            &-control {
+                box-shadow: none;
+                border-color: $grey-light;
+                border-radius: 32px;
+                background: none;
+                transition: all 0.2s ease-in-out 0s;
+                transition-delay: .1s;
+                padding: 8px 16px;
+                font-size: .9rem;
+                height: 40px;
+                background: $grey-light;
+                color: $dark;
+                &:focus {
+                    outline: 0;
+                    border: 1px solid $brand-primary;
+                }
+                &::placeholder {
+                    color: $text-color;
+                }
+            }
+        }
+        // btn
+        .submit_btn {
+            border: 0;
+            outline: 0;
+            padding: 8px 24px;
+            background: darken($brand-primary, 10%);
+            color: rgba($white, .87);
+            font-size: 1.3rem;
+            transition: all 0.2s ease-in-out 0s;
+            width: 100%;
+            display: block;
+            border-radius: 32px;
+            &:hover {
+                background: darken($brand-primary, 5%);
+            }
+        }
+        // card
+        .card {
+            box-shadow: rgba( $black, 0.18) 0px 2px 6px;
+            border: #ededed 1px solid;
+            transition: all .2s linear;
+            &:hover {
+                box-shadow: rgba( $black, 0.4) 0px 2px 10px 1px;
+            }
+
+            &-img-top {
+                height: 140px;
+                object-fit: cover;
+                object-position: center;
+            }
+            &-title {
+                line-height: 16px;
+                margin: 0;
+                font-size: 1rem;
+                color: $brand-primary
+            }
+
+            &-body {
+                padding: 10px;
+                margin-bottom: 3px;
+                word-break: break-all;
+            }
+
+            &-link {
+                font-size: 12px;
+                color: rgba( $black, 0.6);
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and  (max-width: 991px) {
+    .main {
+        /* login */
+        &_section {
+            .submit_btn {
+                width: 40%;
+                margin: auto;
+            }
+        }
+    }
+}
+@media (min-width: 1600px) {
+    body {
+        font-size: 1rem; 
+        line-height: 1.5;
+    }
+    .main {
+        /* login */
+        &_section {
+            .form {
+                &-control {
+                    font-size: 1rem;
+                }
+            }
+            .submit_btn {
+                width: 70%;
+                margin: auto;
+            }
+        }
+    }
+}

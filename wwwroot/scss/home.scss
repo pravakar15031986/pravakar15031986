@@ -1,0 +1,68 @@
+/* base files*/
+@import "base/variables";
+@import "base/mixing";
+@import "base/common";
+/*layout files*/ 
+@import "layout/header";
+@import "layout/footer";
+
+body {
+    background: $body-bg;
+    overflow-x: hidden;
+}
+.main {
+    &_container {
+        margin: 30px auto;
+    }
+    &_section {
+        background: $white;
+        padding: 30px 30px 6px;
+        min-width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .main {
+        &_section {
+            padding: 24px 24px 0;
+        }
+    }
+}
+@media (min-width: 1024px) {
+    .main {
+        &_container{
+            min-height: calc( 100vh - 115px);
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+// @media (min-width: 1200px) {
+//     .main_container {
+//         .main_section {
+//             margin: 0;
+//         }
+//     }
+// }
+@media (min-width: 1680px) {
+    body {
+        overflow: hidden;
+    }
+    .main {
+        // &_container {
+        //     margin: 0 auto;
+        // }
+        &_section {
+            padding: 50px 50px 26px;
+        }
+    }
+}
+@media (min-width: 1680px) {
+    .main {
+        &_container {
+            margin: 0 auto;
+        }
+    }
+}
+  /*# sourceMappingURL=home.css.map */
+  

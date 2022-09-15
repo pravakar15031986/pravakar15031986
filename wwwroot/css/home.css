@@ -1,0 +1,231 @@
+/* base files*/
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+body {
+  font-family: roboto;
+  font-size: 0.9rem;
+  /*transition: all 0.5s ease-in-out 0s;*/
+  color: #4f4f5d;
+  line-height: 1.4;
+}
+
+/*.login_sec .form-control:focus + label, .login_sec .form-control:valid + label {
+  top: -12px;
+  color: $brand-primary;
+  font-weight: 500;
+  z-index: 1; }*/
+.main {
+  /* login */
+}
+.main_section label {
+  color: #2b2b40;
+}
+.main_section .form-control {
+  box-shadow: none;
+  border-color: #ececec;
+  border-radius: 32px;
+  background: none;
+  transition: all 0.2s ease-in-out 0s;
+  transition-delay: 0.1s;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  height: 40px;
+  background: #ececec;
+  color: #2b2b40;
+}
+.main_section .form-control:focus {
+  outline: 0;
+  border: 1px solid #0d0e42;
+}
+.main_section .form-control::placeholder {
+  color: #a3b0be;
+}
+.main_section .submit_btn {
+  border: 0;
+  outline: 0;
+  padding: 8px 24px;
+  background: #050517;
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out 0s;
+  width: 100%;
+  display: block;
+  border-radius: 32px;
+}
+.main_section .submit_btn:hover {
+  background: #09092d;
+}
+.main_section .card {
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 6px;
+  border: #ededed 1px solid;
+  transition: all 0.2s linear;
+}
+.main_section .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 1px;
+}
+.main_section .card-img-top {
+  height: 140px;
+  object-fit: cover;
+  object-position: center;
+}
+.main_section .card-title {
+  line-height: 16px;
+  margin: 0;
+  font-size: 1rem;
+  color: #0d0e42;
+}
+.main_section .card-body {
+  padding: 10px;
+  margin-bottom: 3px;
+  word-break: break-all;
+}
+.main_section .card-link {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .main {
+    /* login */
+  }
+  .main_section .submit_btn {
+    width: 40%;
+    margin: auto;
+  }
+}
+@media (min-width: 1600px) {
+  body {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .main {
+    /* login */
+  }
+  .main_section .form-control {
+    font-size: 1rem;
+  }
+  .main_section .submit_btn {
+    width: 70%;
+    margin: auto;
+  }
+}
+/*layout files*/
+header {
+  box-shadow: rgba(0, 0, 0, 0.28) 0px 0px 3px;
+  background: #0d0e42;
+}
+header .navbar-brand {
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 0.9;
+  font-size: 1.2rem;
+}
+header .navbar-brand .text_bottom {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 73%;
+}
+header .navbar-brand img {
+  height: 60px;
+  filter: brightness(100);
+}
+header .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  padding: 0 !important;
+  font-size: 1rem;
+  transition: all 0.2s linear;
+}
+header .nav-link:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+  height: 2px;
+  width: 100%;
+  transform: scale(0);
+  transition: transform 0.2s linear;
+}
+header .nav-link:hover:not(.profile, .logout):before {
+  transform: scale(1);
+}
+header .nav-link.logout {
+  color: #ff5151;
+}
+header .nav-link.logout:hover {
+  color: #ff8484;
+}
+header .nav-link.profile {
+  margin-right: 16px;
+  border-right: 1px solid rgba(255, 255, 255, 0.14);
+}
+header .nav-link.profile img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+header .nav-link.profile span {
+  margin-right: 16px;
+}
+
+@media (min-width: 768px) {
+  header .nav-link {
+    margin-bottom: 0 !important;
+  }
+}
+@media (min-width: 1600px) {
+  header .navbar-brand {
+    font-size: 1.3rem;
+  }
+  header .nav-link {
+    font-size: 1.1rem;
+  }
+}
+footer {
+  color: #2b2b40;
+}
+
+body {
+  background: #f0f0f0;
+  overflow-x: hidden;
+}
+
+.main_container {
+  margin: 30px auto;
+}
+.main_section {
+  background: #fff;
+  padding: 30px 30px 6px;
+  min-width: 100%;
+}
+
+@media (min-width: 992px) {
+  .main_section {
+    padding: 24px 24px 0;
+  }
+}
+@media (min-width: 1024px) {
+  .main_container {
+    min-height: calc(100vh - 115px);
+    display: flex;
+    align-items: center;
+  }
+}
+@media (min-width: 1680px) {
+  body {
+    overflow: hidden;
+  }
+  .main_section {
+    padding: 50px 50px 26px;
+  }
+}
+@media (min-width: 1680px) {
+  .main_container {
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=home.css.map */
+
+/*# sourceMappingURL=home.css.map */
